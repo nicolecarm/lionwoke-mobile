@@ -52,3 +52,41 @@ h1 {
     margin: 20px auto;
     padding: 0 4px;
 }
+
+/* #### Desktops #### */
+@media screen and (min-width: 1024px){
+    h1 {
+        padding-bottom: 80px;
+        padding-top: 50px;
+        margin-top: 50px;
+        font-size: 5.4em;
+        color: black;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: lightgrey;
+        letter-spacing: 7px;
+    }
+
+    #music-button, #booking-button, #about-button {
+        font-size: 3.5em;
+        padding: 5px 35px 5px 35px;
+        background-color: black;
+        color: grey;
+        /* -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white; */
+        border: 2px solid lightgrey;
+    }
+
+    #music-button {
+        margin-top: 20px;
+        padding: 0px 60px;   
+    }
+
+    #booking-button {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    #about-button {
+        padding: 0px 60px;
+    }
+  }
