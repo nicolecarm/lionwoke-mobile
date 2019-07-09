@@ -4,21 +4,12 @@
     padding: 0px;
 }
 
-#main-container {
-    /* border: 8px solid grey; */
-    background-color: black;
-    height: 100vh;
+body {
+  background-color: black;
 }
-
-/* #main-sub-container {
-    border: 6px solid lightgrey;
-    height: 100vh;
-} */
 
 h1 {
     margin-top: 20px;
-    /* margin-left: 10px;
-    margin-right: 10px; */
     padding: 40px 10px 30px 10px;
     font-size: 3.6em;
     text-align: center;
@@ -70,8 +61,8 @@ h1 {
 @media screen and (min-width: 1024px){
     h1 {
         padding-bottom: 80px;
-        padding-top: 50px;
-        margin-top: 50px;
+        padding-top: px;
+        margin-top: 80px;
         font-size: 5.4em;
         color: black;
         -webkit-text-stroke-width: 3px;
