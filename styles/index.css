@@ -5,7 +5,7 @@
 }
 
 #main-container {
-    border: 8px solid grey;
+    /* border: 8px solid grey; */
     background-color: black;
     height: 100vh;
 }
@@ -30,13 +30,20 @@ h1 {
     line-height: 80px;
 }
 
+#woke {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
 #music-button, #booking-button, #about-button {
     font-size: 2.7em;
     background-color: black;
-    color: grey;
-    border: 2px solid lightgrey;
+    color: black;
+    border: 1px dashed white;
     display: block;
     margin: 50px auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 #music-button {
@@ -72,12 +79,25 @@ h1 {
         letter-spacing: 7px;
     }
 
+    #lion-comma {
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: lightgrey;        
+    }
+
+    #woke {
+        -webkit-text-stroke-width:3px;
+        -webkit-text-stroke-color: white;
+    }
+
+    
     #music-button, #booking-button, #about-button {
-        font-size: 3.5em;
+        font-size: 3.7em;
         padding: 5px 35px 5px 35px;
         background-color: black;
-        color: grey;
-        border: 2px solid lightgrey;
+        color: black;
+        border: 1px dashed white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
     }
 
     #music-button {
