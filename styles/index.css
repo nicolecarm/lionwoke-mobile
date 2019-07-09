@@ -37,6 +37,15 @@ h1 {
     -webkit-text-stroke-color: white;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightgrey;
+}
+
 #music-button {
     padding-left: 30px;
     padding-right: 30px;

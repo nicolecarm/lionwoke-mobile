@@ -23,15 +23,33 @@
       <!-- <img src='images/lion-mobile-text-background.svg' max-height=''> -->
         <h1>The <span id='lion-comma'>Lion,</span><span id='woke'> Woke</span> </h1>
 
-        <button id='music-button'>Music</button>
+        <button id='music-button' onclick='colorWhite()'>
+          <a href='html/music.html'>Music</a>
+        </button>
 
-        <button id='booking-button'>Booking</button>
+        <button id='booking-button' onclick='colorWhite()'>
+            <a href='html/booking.html'>Booking</a>
+        </button>
 
-        <button id='about-button'>About</button>
+        <button id='about-button' onclick='colorWhite()'>
+            <a href='html/about.html'>About</a>
+        </button>
 
       </div>
 
     </div>
+
+    <script>
+
+      let musicButton = document.getElementById('music-button');
+      let bookingButton = document.getElementById('booking-button');
+      let aboutButton = document.getElementById('about-button');
+
+      let colorWhite = funtion() {
+        this.style.color('white');
+      }
+
+    </script>
 
   </body>
 
