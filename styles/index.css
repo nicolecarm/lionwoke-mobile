@@ -27,23 +27,11 @@ h1 {
 }
 
 #music-button, #booking-button, #about-button {
-    font-size: 2.7em;
     background-color: black;
     color: black;
     border: 1px dashed white;
     display: block;
     margin: 50px auto;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-}
-
-a {
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: none;
-    color: lightgrey;
 }
 
 #music-button {
@@ -64,7 +52,22 @@ a:hover {
     padding-right: 30px;
 }
 
+a {
+    color: inherit;
+    font-size: 2.7em;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
 
+a:visited {
+    text-decoration: none;
+}
+
+ a:hover {
+    text-decoration: none;
+    color: lightgrey;
+} 
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px){
@@ -91,13 +94,10 @@ a:hover {
 
     
     #music-button, #booking-button, #about-button {
-        font-size: 3.7em;
         padding: 5px 35px 5px 35px;
         background-color: black;
         color: black;
         border: 1px dashed white;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: white;
     }
 
     #music-button {
@@ -112,5 +112,9 @@ a:hover {
 
     #about-button {
         padding: 0px 60px;
+    }
+
+    a {
+        font-size: 3.7em;
     }
   }
