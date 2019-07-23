@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+
+    <!--local stylesheet-->
+    <link rel="stylesheet" href='../styles/music.css'/>
+    <!--bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <meta charset='UTF-8'>
+
+    <meta name='viewport' content='width=device-width, intial-scale=1'>
+
+    <title>The Lion, Woke</title>
+
+  </head>
+
+  <body>
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active">Booking</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="../index.html">Home</a>
+          <a href="booking.html">Music</a>
+          <a href="about.html">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> 
+      
+      <div id="main-div"></div>
+        <p>Contact us at thelionwoke@gmail.com!</p>
+      </div>
+
+      <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+  </body>
+
+</html>
