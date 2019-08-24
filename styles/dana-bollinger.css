@@ -56,17 +56,6 @@ body {
     color: white;
   }
 
-  p {
-    text-align: center;
-    padding: 10% 0 0 0;
-  }
-
   #main-div {
   }
 
-  #dana, #nicki {
-    width: 30vw; 
-    display: block;
-    margin-top: 7%;
-    margin: 10vh auto;
-    }
