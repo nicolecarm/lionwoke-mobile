@@ -26,12 +26,19 @@ h1 {
     -webkit-text-stroke-color: white;
 }
 
-#music-button, #booking-button, #about-button {
+#music-button, #booking-button, #about-button, #shows-button {
     background-color: black;
     color: black;
     border: 1px dashed white;
     display: block;
     margin: 50px auto;
+}
+
+#shows-button {
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 35px;
+    border: 3px dashed purple;
 }
 
 #music-button {

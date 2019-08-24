@@ -56,14 +56,12 @@ body {
     color: white;
   }
 
-  #main-div {
-    height: 100vh;
-    border: 2px solid blue;
+  h1 {
+    text-align: center;
   }
 
-  #dana-face {
-    width: 40vw;
+  .mapouter {
     display: block;
-    margin: auto;
+    margin: 0 auto;
   }
 
