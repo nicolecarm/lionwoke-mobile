@@ -106,6 +106,7 @@ a:hover {
         background-color: black;
         color: black;
         border: 1px dashed white;
+        width: 20vw;
     }
 
     #music-button {
