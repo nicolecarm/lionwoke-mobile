@@ -70,3 +70,12 @@ body {
     margin: 0 auto;
   }
 
+  @media screen and (min-width: 1024px){
+
+    #nicki-face {
+      width: 10vw;
+      margin-top: 30vh;
+    }
+
+  }
+
