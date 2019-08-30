@@ -70,3 +70,10 @@ body {
     margin-top: 7%;
     margin: 10vh auto;
     }
+
+  @media screen and (min-width: 1024px){
+    #dana, #nicki {
+      width: 10vw;
+    }
+
+  }
